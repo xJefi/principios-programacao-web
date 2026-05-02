@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Virtual</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Escola Virtual</h1>
+    <h2 style="text-align: center;">Formulário de pré-matrícula</h2>
+    
+    <form action="telafinal.html" method="post">
+        <fieldset>
+            <p>Dados pessoais:</p>
+
+            <label for="name">Nome do aluno:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="data-nascimento">Data de nascimento (dd/mm/aaaa):</label>
+            <input type="date" id="data-nascimento" name="data-nascimento" required>
+
+            <br><br>
+
+            <label for="nome-mae">Nome da Mãe:</label>
+            <input type="text" name="nome-mae" id="nome-mae" required>
+
+            <br><br>
+
+            <label for="nome-pai">Nome do pai:</label>
+            <input type="text" name="nome-pai" id="nome-pai" required>
+
+            <br><br>
+
+            <label for="telefone">Telefone DDD (</label>
+            <input type="text" id="telefone" name="telefone" size="2" maxlength="3" required>
+            <label for="phone">) Tel:</label>
+            <input type="tel" name="phone" id="phone" size="8" maxlength="9" required>
+            <label for="ramal">Ramal:</label>
+            <input type="text" name="ramal" id="ramal" maxlength="6" size="5">
+
+            <br><br>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" name="email" id="email" required>
+
+            <br><br>
+
+            <fieldset>
+                <p>Informações de Matrícula:</p>
+
+                <label for="serie">Série:</label>
+                <select name="serie" id="serie" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="pre-escolar">Pré-Escolar</option>
+                    <option value="ensino-fundamental">Ensino Fundamental</option>
+                    <option value="ensino-medio">Ensino Médio</option>
+                </select>
+
+                <br>
+
+                <p>Turno:</p>
+                <label for="manha">Manhã</label>
+                <input type="radio" name="turno" id="manha" value="Manhã" checked>
+
+                <label for="tarde">Tarde</label>
+                <input type="radio" name="turno" id="tarde">
+
+                <br><br>
+
+                <p>Atividades Extracurriculares:</p>
+                <input type="checkbox" name="informatica" id="informatica" value="yes">
+                <label for="informatica">Informática</label>
+                
+                <input type="checkbox" name="musica" id="musica" value="yes">
+                <label for="musica">Música</label>
+                
+                <input type="checkbox" name="balet" id="balet" value="yes">
+                <label for="balet">Balet</label>
+                
+                <input type="checkbox" name="pintura" id="pintura" value="yes">
+                <label for="pintura">Pintura</label>
+                
+                <input type="checkbox" name="judo" id="judo" value="yes">
+                <label for="judo">Judô</label>
+                
+                <input type="checkbox" name="futebol" id="futebol" value="yes">
+                <label for="futebol">Futebol</label>
+                
+            </fieldset>
+
+            <br>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar Formulário">
+        <input type="reset" value="Limpar Campos">
+
+
+    </form>
+
+</body>
+
+</html>

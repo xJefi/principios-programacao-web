@@ -1,0 +1,26 @@
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    background-color: lightyellow;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: block;
+}

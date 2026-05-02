@@ -1,0 +1,31 @@
+.caixa1 {
+    color: blue;
+    background-color: lightyellow;
+}
+
+.caixa2 {
+    color: #00ff00;
+    background-color: #ff6600;
+}
+
+.caixa3 {
+    color: rgb(0, 255, 76);
+    background-color: rgb(250, 0, 200);
+}
+
+.caixa4 {
+    color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(0, 0, 255, 0.4)
+}
+
+.caixa5 {
+    color: hsl(120, 100%, 50%);
+    background-color: hsl(240, 80%, 60%);
+}
+
+div {
+    margin: 10px;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 16px;
+}

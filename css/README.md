@@ -1,0 +1,1 @@
+**Exercícios realizados levando em conta apenas o uso de HTML e CSS.

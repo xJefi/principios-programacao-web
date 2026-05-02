@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Elaborado</title>
+</head>
+
+<body>
+    <h1>Formulário:</h1>
+
+    <form action="telafinal.html" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="adress">Endereço:</label>
+            <input type="text" name="adress" id="adress" required>
+
+            <br><br>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+
+            <br><br>
+
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado" required>
+                <option value="">Selecione uma opção</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Paraná</option>
+            </select>
+
+
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+
+            <p>Natureza do cargo</p>
+
+            <input type="radio" id="gerencia" name="cargo" value="Gerência" checked>
+            <label for="gerencia">Gerência</label>
+
+            <input type="radio" id="financeiro" name="cargo" value="Financeiro">
+            <label for="financeiro">Financeiro</label>
+
+            <input type="radio" id="recepçao" name="cargo" value="Recepção">
+            <label for="recepçao">Recepção</label>
+
+            <input type="radio" id="administrativo" name="cargo" value="Administrativo">
+            <label for="administrativo">Administrativo</label>
+
+            <input type="radio" id="juridico" name="cargo" value="Jurídico">
+            <label for="juridico">Jurídico</label>
+
+            <p>Área de interesse</p>
+
+            <input type="checkbox" id="computacao" name="computacao" value="yes">
+            <label for="computacao">Computação</label>
+            
+            <input type="checkbox" name="biologia" id="biologia" value="yes">
+            <label for="biologia">Biologia</label>
+
+            <input type="checkbox" name="meio-ambiente" id="meio-ambiente" value="yes">
+            <label for="meio-ambiente">Meio Ambiente</label>
+            
+            <input type="checkbox" name="engenharia" id="engenharia" value="yes">
+            <label for="engenharia">Engenharia</label>
+            
+            <input type="checkbox" name="historia" id="historia" value="yes">
+            <label for="historia">História</label>
+
+            <br><br>
+
+            <label for="comment">Mini-currículo:</label>
+            <textarea name="comment" id="comment" cols="50" rows="5" placeholder="Digite aqui:" required></textarea>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+</body>
+
+</html>

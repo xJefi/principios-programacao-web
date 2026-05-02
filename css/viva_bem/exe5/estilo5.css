@@ -1,0 +1,22 @@
+div {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid darkblue;
+    width: 300px;
+}
+
+.caixa1 {
+    margin: 20px;
+    padding: 10px;
+}
+
+.caixa2 {
+    margin: 10px 30px;
+    padding: 15px 5px;
+}
+
+.caixa3 {
+    margin: 5px 20px 25px 10px;
+    padding: 20px 15px 10px 5px;
+}
